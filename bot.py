@@ -86,7 +86,7 @@ def main():
     updater.dispatcher.add_handler(CommandHandler('start', start))
     updater.dispatcher.add_handler(MessageHandler(Filters.all & ~Filters.command, textHandler, run_async=True))
     updater.start_webhook(listen="0.0.0.0", port=int(PORT), url_path=TOKEN)
-    updater.bot.setWebhook('https://ytsubtitlebot.herokuapp.com/' + TOKEN)
+    updater.bot.setWebhook('https://blooming-taiga-74792.herokuapp.com/' + TOKEN)
     updater.idle()
 
 

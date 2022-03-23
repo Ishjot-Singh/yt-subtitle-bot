@@ -1,1 +1,0 @@
-# yt-subtitle-bot
